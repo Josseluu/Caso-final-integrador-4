@@ -50,7 +50,7 @@ public class TextTools {
                 }
             }
         }
-        showMainMenu(); // Regresa al menú principal después de la comparación
+        showMainMenu();
     }
 
     private static boolean areFilesEqual(File file1, File file2) throws IOException {
@@ -71,8 +71,8 @@ public class TextTools {
     }
 
     private static void analyzeText() {
-        // Implementación del análisis de texto aquí
+
         JOptionPane.showMessageDialog(null, "Funcionalidad de análisis de texto no implementada aún.");
-        showMainMenu(); // Regresa al menú principal después del análisis de texto
+        showMainMenu();
     }
 }
